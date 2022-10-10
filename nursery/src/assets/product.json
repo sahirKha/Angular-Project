@@ -1,0 +1,77 @@
+ 
+ [
+ 
+  {
+    "name":"Chlorophytum Plant",
+    "description1":"Chlorophytum comosum, usually called spider plant due to its spider like look, but also known as spider ivy, ribbon plant ",
+    "Price":400,
+    "type":"For Balcony",
+    "img":"assets/images/1.jpg",
+    "rating":2.5
+  },
+  {
+    "name":"Jade Plant",
+   "description1":"Crassula ovata, commonly known as jade plant, lucky plant, money plant or money tree, is a succulent plant with small pink",
+    "Price":300,
+    "type":"For Balcony",
+    "img":"assets/images/2.png",
+    "rating":2
+  },
+  {
+    "name":"Golden Sedum Plant",
+    "description1":"Sedum is a large genus of flowering plants in family Crassulaceae,members of which are commonly known as stonecrops.",
+    "Price":300,
+    "type":"For Balcony",
+    "img":"assets/images/3.png",
+    "rating":3.5
+  },
+  {
+    "name":"Lucky Bamboo Plant",
+    "description1":"Dracaena sanderiana is a species of flowering plant in the family Asparagaceae. The plant as known as Lucky   Bamboo Plant",
+    "Price":400,
+    "type":"For Balcony",
+    "img":"assets/images/4.png",
+    "rating":2.5
+  },
+{
+   "name":"Crassula Ovata Plant",
+   "description1":"Crassula ovata prefers a brightly lit position,preferably a south-facing or west-facing,but it willgrow in darkconditions.",
+    "Price":600,
+   "type":"For Balcony",
+    "img":"assets/images/5.png",
+    "rating":4
+  },
+  {
+   "name":"Arabian Jasmine",
+    "description1":"This flowers repeatedly bloom throughout the summers.the best plants to grow on a balcony to fill atmosphere with Khusboo!",
+    "Price":500,
+    "type":"For Balcony",
+    "img":"assets/images/6.png",
+    "rating":2.5
+  },
+  {
+    "name":"Asian Pigeonwings",
+    "description1":"The flower features immense therapeutic properties,due to which its blue tea is quite popular.Its conch-like blue flowers.",
+    "Price":400,
+    "type":"For Balcony",
+    "img":"assets/images/7.png",
+    "rating":3
+  },
+  {
+   "name":"Rose",
+   "description1":"Rose has no substitute in any garden. It comes in a wide range of colors, fragrances,sizes.This  is one of the Best Plants to Keep.",
+   "Price":700,
+    "type":"For Balcony",
+    "img":"assets/images/8.png",
+   " rating":3.5
+  },
+ {
+    "name":"Pink Rain Lily",
+    "description1":"Blooming in monsoon, the pink rain lily adds a burst of colors to the balcony. Its grassy leaves match really well with blooms.",
+   "Price":450,
+   "type":"For Balcony",
+    "img":"assets/images/9.png",
+    "rating":2
+  }
+
+]

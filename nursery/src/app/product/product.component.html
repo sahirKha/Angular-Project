@@ -1,0 +1,38 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let product of products|slice:start_index:end_index">
+      <div class="card" style="width: 15rem;" [ngStyle]="cardstyle">
+        <img [src]="product.img" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}}</h5>
+          <p class="card-text">{{product.description1}}</p>
+          <h5 class="card-text">{{product.type}}</h5>
+          <p class="card-text"><app-star [starrating]="product.rating" (value)="displaychilddata($event)"></app-star></p>
+          <h3>{{product.Price| currency :"INR":"symbol"}}</h3>
+          <a class="btn btn-primary" (click)="addtocart()">ADD to CART</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<br>
+<!--PAGINATION STARTS-->
+<div class="d-flex justify-content-end"><nav aria-label="...">
+  <ul class="pagination pagination-lg">
+    <li class="page-item active" aria-current="page" (click)="nextPage(1)">
+      <span class="page-link">1</span>
+    </li>
+    <li class="page-item"><a class="page-link" (click)="nextPage(2)">2</a></li>
+    <li class="page-item"><a class="page-link" (click)="nextPage(3)">3</a></li>
+  </ul>
+</nav>
+</div>
+
+<!--PAGIINATION ENDS-->
+
